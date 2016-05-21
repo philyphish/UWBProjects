@@ -4,8 +4,9 @@
 var myLinks = [];
 $(".Col-Links a").each(function(index,value)
                      {
-                       myLinks = value;
-                      // console.log(myLinks)
+                       myLinks[index] = value;
+                       
                        
                      })
-console.log(myLinks);
+//myLinks is an array that contains the EIH links on the QuickSearch.jsp page
+console.log(myLinks[1]);
