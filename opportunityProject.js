@@ -9,4 +9,5 @@ $(".Col-Links a").each(function(index,value)
                        
                      })
 //myLinks is an array that contains the EIH links on the QuickSearch.jsp page
+//testing commit
 console.log(myLinks[1]);
